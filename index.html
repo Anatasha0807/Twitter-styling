@@ -13,9 +13,11 @@
     <link rel='stylesheet' type='text/css' href='style.css'>
   </head>
   <body>
-
     <nav class="navbar navbar-expand-md navbar-light bg-white mb-4">
-      <a class="navbar-brand" href="#">Twitter</a>
+      <a class="navbar-brand" href="#">
+        <img src="image/twitter.png" width="35">
+      </a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,51 +33,108 @@
             <a class="nav-link" href="#">Messages</a>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          <button type="button" class="btn btn-lg btn-primary" disabled>Tweet</button>
-        </form>
-
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search Twitter" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <a href="#" class="badge badge-pill badge-primary">Tweet</a>
+        </div>
       </div>
     </nav>
 
+    <div class="container-fluid gedf-wrapper">
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="card-columns">
-          <div class="card" style="width: 20rem;">
-          <div class="card-body">
-            <img src="rambutancode.jpg" alt="rambutancode" width="42" height="42">
-            <h5 class="card-title"><b>Rambutan Code Academy</b></h5>
-            <a href="#" class="card-link" style="color: grey"><b>Tweets</b></a>
-                <p style="color: #45A7EC"><b>20</b></p>
-            <a href="#" class="card-link" style="color: grey"><b>Following</b></a>
-                <p style="color: #45A7EC"><b>20</b></p>
-            <a href="#" class="card-link" style="color: grey"><b>Followers</b></a>
-                <p style="color: #45A7EC"><b>20</b></p>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="row">
+            <div class="card">
+              <div class="card-body" style="margin-bottom: 50px">
+                <img src="image/rambutancode.jpg" alt="rambutancode" width="220" height="95">
+                <h5 class="card-title font">@Rambutan Code Academy</h5>
+                <a href="#" class="card-link" style="color: grey"><b>Tweets</b></a>
+                    <p style="color: #45A7EC"><b>20</b></p>
+                <a href="#" class="card-link" style="color: grey"><b>Following</b></a>
+                    <p style="color: #45A7EC"><b>20</b></p>
+                <a href="#" class="card-link" style="color: grey"><b>Followers</b></a>
+                    <p style="color: #45A7EC"><b>20</b></p>
+              </div>
+            </div>
           </div>
 
-        <div class="row grid" "card-columns">
-          <div class= "card-body p-3"  style="width: 20rem;">
-              <h5 class="card-title"><b>Trends for you. </b><a href="#" class="card-link" style="font-size: 15px">Change</a></h5>
-              <a href="#" class="card-link"><b>Mineski</b></a>
-                  <p>5,8376 Tweets</p>
-              <a href="#" class="card-link"><b>#PrayForTheAmazon</b></a>
-                  <p>226K Tweets</p>
-              <a href="#" class="card-link"><b>Team Secret</b></a>
-                  <p>2,872 Tweets</p>
-              <a href="#" class="card-link"><b>#AmazonFires</b></a>
-                  <p>51.6K Tweets</p>
-              <a href="#" class="card-link"><b>Midone</b></a>
-                  <p>1,087 Tweets</p>
-              <a href="#" class="card-link"><b>Nisha</b></a>
-                  <p>3,203 Tweets</p>
+          <div class="row">
+            <div class="card" style="margin-top width: 50px;">
+              <div class= "card-body p-3"  style="width: 20rem; padding: 5px">
+                  <h5 class="card-title"><b>Trends for you. </b><a href="#" class="card-link" style="font-size: 15px">Change</a></h5>
+                  <a href="#" class="card-link"><b>Mineski</b></a>
+                      <p>5,8376 Tweets</p>
+                  <a href="#" class="card-link"><b>#PrayForTheAmazon</b></a>
+                      <p>226K Tweets</p>
+                  <a href="#" class="card-link"><b>Team Secret</b></a>
+                      <p>2,872 Tweets</p>
+                  <a href="#" class="card-link"><b>#AmazonFires</b></a>
+                      <p>51.6K Tweets</p>
+                  <a href="#" class="card-link"><b>Midone</b></a>
+                      <p>1,087 Tweets</p>
+                  <a href="#" class="card-link"><b>Nisha</b></a>
+                      <p>3,203 Tweets</p>
+                </div>
+              </div>
             </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header" style="background-color: #E3F0FA";>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="mr-2">
+                  <img class="rounded-circle" width="30" src="image/rambutan.png" alt="">
+                </div>
+                  <input class="form-control bg-white" type="text" placeholder="What's happening...?" readonly>
+                  </div>
+            </div>
+            <div class="card-body" style="background-color: white">
+              <div class="text-muted h7 mb-2"> <i class="fa-right fa-clock-o"></i> 10 min ago</div>
+              <h6 class="card-title bold">Malaysian Global Innovation & Creativity Centre.</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+              <div class="card-body">
+              <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i> 10 min ago</div>
+               <a class="card-link" href="#">
+                 <h6 class="card-title">Malaysian Global Innovation & Creativity Centre.</h6>
+               </a>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </li>
+            </ul>
           </div>
         </div>
 
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><b>Who to follow. </b><a href="#" class="card-link" style="font-size: 15px">Refresh.</a></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio
+                  <button type="button" class="btn btn-outline-primary btn-sm">Follow</button></li>
+                <li class="list-group-item">Cras justo odio
+                  <button type="button" class="btn btn-outline-primary btn-sm">Follow</button></li>
+                <li class="list-group-item">Cras justo odio
+                  <button type="button" class="btn btn-outline-primary btn-sm">Follow</button></li>
+
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Show more</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- <div class="col-md-10 gedf-main">
       <div class="row grid">
-        <div class="card" "h-300 d-inline-block" style="width: 600px">
+        <div class="card col">
           <input class="form-control /action_page.php card-header" type="text" placeholder="What's happening?" type= "file" name="pic" accept="image/*" readonly>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -83,18 +142,10 @@
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
-
-      <div class="card w-200 p-2" style="width: 100%;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
       </div>
+    </div> -->
 
-    </div>
+
 
 
   </body>
